@@ -45,8 +45,8 @@
 
         <!-- corousel slider  -->
         <section class="container mb-5">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
+            <div id="carouselExampleCaptions" class="carousel slide slider-container" data-bs-ride="carousel">
+                <div class="carousel-indicators h-100">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -186,6 +186,16 @@
       </div>
         </section> 
 
+        <!-- toast -->
+
+        <div class="container mb-5">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Hello!</strong> I'm a toast. Do you want to eat me?
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div> 
+        </div>   
+
+
         <!-- faq  -->
         <section class="container mb-5">
             <h2 class="mb-5 text-center">Our package</h2>
@@ -226,7 +236,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="w-75 mx-auto">
-                        <img class="img-fluid" src="images/people.png" alt="">
+                        <img class="img-fluid py-5" src="images/people.png" alt="">
                     </div>
                 </div>
             </div>
@@ -238,9 +248,9 @@
         <!-- copyright section  -->
         <section class="bg-dark text-light">
             <div class="container py-5">
-                <div class="d-flex justify-content-between align-items-center h-100">
-                    <div>&copy; 2022 bike. All rights reserved</div>
-                    <div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center h-100">
+                    <div class="order-2 order-sm-1 mt-5 my-sm-0">&copy; 2022 bike. All rights reserved</div>
+                    <div class="order-1 order-sm-2">
                         <h5>Get the App</h5>
                         <div style="width: 135px;" class="py-1">
                             <img class=" img-fluid rounded-2" src="images/app-store.png"alt="">
@@ -254,6 +264,6 @@
         </section>
       
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

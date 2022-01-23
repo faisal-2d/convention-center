@@ -5,13 +5,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.slider{
+.slider-container{
+    min-height: 500px;
+}
+/* .slider{
     width: 100%; 
     height: 75vh;
 }
 .slider img{
     background-size: cover;
-}
+} */
 
 ul li {
     list-style: none;  
