@@ -12,3 +12,18 @@ ul li {
 .far{
     padding-right: 10px;
 }
+#special{
+    transform: scale(1.1) translate(0, -16px);
+}
+
+/* Media Quaries */
+
+@media (max-width: 575px) { 
+    .slider{
+        height: 80vh;
+    }
+    .slider img{
+        
+    }
+
+ }
