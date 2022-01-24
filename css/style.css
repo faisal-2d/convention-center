@@ -9,7 +9,7 @@ ul li {
     list-style: none;  
     font-size: small;  
 }
-.far{
+.far, .fas{
     padding-right: 10px;
 }
 #special{
