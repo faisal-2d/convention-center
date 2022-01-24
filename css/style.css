@@ -15,6 +15,9 @@ ul li {
 #special{
     transform: scale(1.1) translate(0, -16px);
 }
+.hot{
+    left: 85%;
+}
 
 /* Media Quaries */
 
