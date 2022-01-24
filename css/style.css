@@ -18,12 +18,14 @@ ul li {
 
 /* Media Quaries */
 
-@media (max-width: 575px) { 
+@media screen and (max-width: 575px) { 
     .slider{
-        height: 80vh;
+        min-height: 80vh;
     }
     .slider img{
-        
+        border: 2px solid red;
+        transform: scale(5) translate(4%, 30%);
+        overflow: hidden;
     }
 
  }
